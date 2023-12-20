@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Green text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.extra-text {
+    background-color: #333; /* Background color for the extra text */
+    color: #00ff00; /* Text color for the extra text */
+    text-align: center;
+    margin-bottom: -30px;
+    padding: 1em; /* Adjusted padding */
+    align-items: center;
+}
+
+header {
+    background-color: #000; /* Updated header color to black (#000) */
+    color: #fff;
+    text-align: center;
+    padding: 1em; /* Adjusted padding */
+    margin: 25px;
+    align-items: center;
+    /*margin-left: 200px;
+    margin-right: 300px; */
+    margin-bottom: 20px; /* Added margin at the bottom */
+    border-bottom: 3px solid #00ff00; /* Added border at the bottom */
+    width: 80%; /* Ensure the header spans the full width */
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row; /* Display items in a row */
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+.logo img {
+    max-height: 100px; /* Adjust the max-height to your desired size */
+    margin: 200px; /* Added margin for spacing between logo and text */
+}
+
+#about,
+#for-clients,
+#for-carers,
+#mechandise,
+#job-opportunities,
+#make-a-payment,
+#gift-vouchers,
+#merchandise
+{
+    align-items: flex-start; /* Adjusted alignment for specific sections */
+    justify-content: flex-start; /* Adjusted justification for specific sections */
+    text-align: left; /* Left align text in specific sections */
+    margin-right: 1350px;
+    margin-bottom: 500px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the navigation horizontally */
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
