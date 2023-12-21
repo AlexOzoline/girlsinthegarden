@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #000;
-    color: #00ff00;
+    color: #259646;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 /* Extra text styles */
 .extra-text {
     background-color: #333;
-    color: #00ff00;
+    color: #259646;
     text-align: center;
     margin-bottom: -3vh;
     padding: 2vh;
@@ -30,9 +30,9 @@ header {
     margin: 2.5vh;
     align-items: center;
     margin-bottom: 2vh;
-    border-bottom: 0.5vh solid #00ff00;
+    border-bottom: 0.5vh solid #259646;
     width: 90%;
-    font-size: 1.2vw;
+    font-size: 2.3vw;
     justify-content: space-between;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .logo-container img {
-    max-width: 8vw; /* Adjust the max-width to your desired size */
+    max-width: 40vw; /* Adjust the max-width to your desired size */
     height: auto;
     margin-bottom: 2vw;
 }
@@ -58,8 +58,8 @@ header {
     justify-content: flex-start;
     text-align: left;
     margin-right: 80vw;
-    margin-bottom: 20vh;
-    font-size: 1.5vw;
+    margin-bottom: 25vh;
+    font-size: 2vw;
 }
 
 #job-opportunities,
