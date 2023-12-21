@@ -3,79 +3,85 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000; /* Black background */
-    color: #00ff00; /* Green text */
+    background-color: #000;
+    color: #00ff00;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     align-items: center;
 }
 
+/* Extra text styles */
 .extra-text {
-    background-color: #333; /* Background color for the extra text */
-    color: #00ff00; /* Text color for the extra text */
+    background-color: #333;
+    color: #00ff00;
     text-align: center;
-    margin-bottom: -30px;
-    padding: 1em; /* Adjusted padding */
+    margin-bottom: -3vh;
+    padding: 2vh;
     align-items: center;
 }
 
+/* Header styles */
 header {
-    background-color: #000; /* Updated header color to black (#000) */
+    background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 1em; /* Adjusted padding */
-    margin: 25px;
+    padding: 2vh;
+    margin: 2.5vh;
     align-items: center;
-    /*margin-left: 200px;
-    margin-right: 300px; */
-    margin-bottom: 20px; /* Added margin at the bottom */
-    border-bottom: 3px solid #00ff00; /* Added border at the bottom */
-    width: 80%; /* Ensure the header spans the full width */
-    font-size: 25px;
+    margin-bottom: 2vh;
+    border-bottom: 0.5vh solid #00ff00;
+    width: 90vw;
+    font-size: 2.5vh;
     justify-content: space-between;
 }
 
+/* Logo styles */
 .logo-container {
     display: flex;
-    flex-direction: row; /* Display items in a row */
-    margin-left: 20px;
-    margin-bottom: -20px;
+    flex-direction: row;
+    margin-left: -1vw;
+    margin-bottom: -2vh;
 }
 
 .logo img {
-    max-height: 100px; /* Adjust the max-height to your desired size */
-    margin: 200px; /* Added margin for spacing between logo and text */
+    max-height: 10vh;
+    margin: 2vh;
 }
 
+/* Section styles */
 #about,
 #for-clients,
 #for-carers,
 #mechandise,
-#job-opportunities,
-#make-a-payment,
 #gift-vouchers,
-#merchandise
-{
-    align-items: flex-start; /* Adjusted alignment for specific sections */
-    justify-content: flex-start; /* Adjusted justification for specific sections */
-    text-align: left; /* Left align text in specific sections */
-    margin-right: 1350px;
-    margin-bottom: 500px;
+#merchandise {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    margin-right: 80vw;
+    margin-bottom: 20vh;
 }
 
+#job-opportunities,
+#make-a-payment {
+    margin-right: 76vw;
+    margin-bottom: 20vh;
+}
+
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the navigation horizontally */
+    justify-content: center;
 }
 
 nav li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 2vw;
 }
 
 nav a {
@@ -83,6 +89,7 @@ nav a {
     text-decoration: none;
 }
 
+/* General section styles */
 section {
-    padding: 2em;
+    padding: 2vh;
 }
