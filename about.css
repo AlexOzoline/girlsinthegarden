@@ -1,0 +1,12 @@
+
+  
+  .header-image {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Adjust the distance from the right edge */
+    transform: translateY(-50%);
+    max-width: 100px; /* Adjust the max-width of the image */
+    height: auto;
+  }
+
+
