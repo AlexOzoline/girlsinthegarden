@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Girls in the Garden</title>
   <link rel="stylesheet" href="../css/about.css">
   <style>
     body {
@@ -17,60 +16,25 @@
       font-size: 3vh;
     }
 
-    header {
-      background-color: #000; 
-      padding: 20px;
-      text-align: center;
-      color: #fff; 
-      position: relative;
-    }
-
-    li {
-      font-weight: bold; 
-      margin: 5px 0;
-    }
-
-    nav {
-      background-color: #689F38; 
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #fff; 
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    main {
-      padding: 20px;
-    }
-
-    footer {
-      background-color: #259646; 
-      padding: 10px;
-      text-align: center;
-      color: #fff; 
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+    
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Girls in the Garden Gardening Services</h1>
-    <img src="../resources/greenlogo.png" alt="Girls in the Garden Logo" width="100" height="100" class="header-image">
+    <img src="../resources/greenlogo.png" alt="Girls in the Garden Logo" class="header-image">
+    <div class = mobile>
+      <img src="../resources/phone_icon.png" alt="Mobile Logo" class = "phone">
+      <p>Call us <br> 0402 604 489</p>
+  </div>
   </header>
 
   <nav>
     <a href="../index.html">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Services</a>
-    <a href="#">Gallery</a>
-    <a href="#">Contact</a>
+    <a href="./about.html">About Us</a>
+    <a href="./services.html">Services</a>
+    <a href="./gallery.html">Gallery</a>
+    <a href="./contact.html">Contact</a>
   </nav>
 
   <main>
@@ -86,6 +50,9 @@
         margin-bottom: 20px;
       }
     </style>
+    <center>
+      <h1>Girls in the Garden Gardening Services</h1>
+    </center>
     <p>Our business is steadily growing and as such we are now servicing extra suburbs.</p>
     
     <p>We service all South Eastern suburbs and the Mornington Peninsula including:</p>
@@ -182,7 +149,6 @@
   </footer>
 
   <script>
-    // JavaScript to trigger the fade-in effect after the page loads
     document.addEventListener('DOMContentLoaded', function() {
       document.body.style.opacity = 1;
     });

@@ -1,74 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Girls in the Garden</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girls in the Garden</title>
+  <link rel="stylesheet" href="./css/about.css">
+
 </head>
 
-<body>
-    <body>
-    <header>
-        <div class="logo-container">
-            <img src="./resources/greenlogo.png" alt="Girls in the Garden Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#job-opportunities">Job Opportunities</a></li>
-                <li><a href="#for-clients">For Clients</a></li>
-                <li><a href="./html/services.html">Servicable Areas</a></li>
-                <li><a href="./html/about.html">About Us</a></li>
-                <li><a href="#merchandise">Merchandise</a></li>
-                <li><a href="#gift-vouchers">Gift Vouchers</a></li>
-                <li><a href="#make-a-payment">Book a Session</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="extra-text">
-        <p>Call 0402 604 489</p>
+  <header>
+    <img src="./resources/greenlogo.png" alt="Girls in the Garden Logo" class="header-image">
+    <div class = mobile>
+        <img src="./resources/phone_icon.png" alt="Mobile Logo" class = "phone">
+        <p>Call us <br> 0402 604 489</p>
     </div>
+  </header>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>///</p>
-    </section>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="./html/about.html">About Us</a>
+    <a href="./html/services.html">Services</a>
+    <a href="./html/gallery.html">Gallery</a>
+    <a href="./html/contact.html">Contact</a>
+  </nav>
+<body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="resources/garden1.png" alt="Image 1">
+        <div class="overlay-text">
+          <h1>Girls in the Garden</h1>
+          <p><i>Your Garden, Our Commitment to the little details.</i></p>
+        </div>
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="resources/garden2.jpg" alt="Image 2">
+        <div class="overlay-text">
+          <h1><i>No job is too great or too small<i></h1>
+        </div>
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="resources/garden3.jpg" alt="Image 3">
+        <div class="overlay-text">
+          <p>"The gardeners did a wonderful job"</p>
+          <p><i>"I haven't seen my backyard looking this tidy in years,<br> gardeners were lovely to talk to and did exactly as asked. <br> Thank you"</i> </p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
 
-    <section id="Services">
-        <h2>For Clients</h2>
-        <p>///</p>
-    </section>
+  <footer>
+  </footer>
 
-    <section id="for-carers">
-        <h2>For Carers</h2>
-        <p>///</p>
-    </section>
-
-    <section id="job-opportunities">
-        <h2>Job opportunities</h2>
-        <p>///</p>
-    </section>
-
-    <section id="merchandise">
-        <h2>Merchandise</h2>
-        <p>///</p>
-    </section>
-
-    <section id="gift-vouchers">
-        <h2>Gift Vouchers</h2>
-        <p>///</p>
-    </section>
-
-    <section id="make-a-payment">
-        <h2>Make a payment</h2>
-        <p>///</p>
-    </section>
-
-
-    <!-- Other sections go here -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.style.opacity = 1;
+    });
+  </script>
 
 </body>
-
 </html>

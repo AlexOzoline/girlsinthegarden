@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
-    color: #259646;
+    background-color: #fff;
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 /* Extra text styles */
 .extra-text {
     background-color: #333;
-    color: #259646;
+    color:  ;
     text-align: center;
     margin-bottom: -3vh;
     padding: 2vh;
@@ -23,8 +23,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #259646;
     text-align: center;
     padding: 2vh;
     margin: 2.5vh;
@@ -38,11 +38,16 @@ header {
 
 /* Logo styles */
 .logo-container {
-    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20px; 
+    transform: translateY(-50%);
+    max-width: 100px; 
+    height: auto;
 }
 
 .logo-container img {
-    max-width: 40vw; /* Adjust the max-width to your desired size */
+    max-width: 5vw; /* Adjust the max-width to your desired size */
     height: auto;
     margin-bottom: 2vw;
 }
@@ -86,7 +91,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #259646;
     text-decoration: none;
 }
 
@@ -102,3 +107,4 @@ img.right-aligned {
     max-width: 100%; /* Make sure the image does not exceed the viewport width */
     height: auto; /* Maintain the image's aspect ratio */
   }
+
