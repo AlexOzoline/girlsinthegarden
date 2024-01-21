@@ -36,6 +36,10 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: #333;
+}
+
 footer {
   background-color: #259646; 
   padding: 10px;
