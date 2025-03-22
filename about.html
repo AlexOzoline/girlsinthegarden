@@ -44,7 +44,20 @@
   </nav>
 
   <main>
-    <img src="./resources/about_us.png" alt="about_us" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+    <img src="./resources/about_us.png" alt="about_us" class="same-size">
+  <img src="./resources/about_us2.jpg" alt="about_us" class="same-size">
+
+  <style>
+    .same-size {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; /* Ensures responsiveness */
+      height: auto; /* Maintains aspect ratio */
+      aspect-ratio: 16 / 9; /* Ensures both images have the same proportions */
+      object-fit: cover; /* Prevents distortion */
+    }
+  </style>
+
   </main>
 
   <footer>
